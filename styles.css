@@ -1,0 +1,87 @@
+body {
+  text-align: center;
+  background-color: #011f3f;
+}
+
+.level-title {
+  font-family: "Press Start 2P", cursive;
+  font-size: 3rem;
+  margin: 5%;
+  color: #fef2bf;
+}
+
+#play-title {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1rem;
+  margin: 5%;
+  color: #fff;
+}
+
+.score{
+  font-size: 2rem;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  font-family: "Press Start 2P", cursive;
+  font-size: 4rem;
+  margin: 5%;
+  line-height: 2.7;
+  color: #fef2bf;
+  cursor: pointer;
+  background-color: red;
+}
+
+.green {
+  font-family: "Press Start 2P", cursive;
+  font-size: 4rem;
+  margin: 5%;
+  line-height: 2.7;
+  color: #fef2bf;
+  cursor: pointer;
+  background-color: green;
+}
+
+.blue {
+  font-family: "Press Start 2P", cursive;
+  font-size: 4rem;
+  margin: 5%;
+  line-height: 2.7;
+  color: #fef2bf;
+  cursor: pointer;
+  background-color: blue;
+}
+
+.yellow {
+  font-family: "Press Start 2P", cursive;
+  font-size: 4rem;
+  margin: 5%;
+  line-height: 2.7;
+  color: #fef2bf;
+  cursor: pointer;
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
