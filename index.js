@@ -2,8 +2,7 @@ let buttonColours = ['red', 'blue', 'green', 'yellow']
 let gamePattern = []
 let userClickPattern = []
 let started = false;
-let level = 0
-
+let level = 0;
 
 $(document).keypress((e) => {
 	if (e.key === 'y') {
@@ -28,10 +27,10 @@ $('.btn').click(function (e) {
 	checkAnswer(userClickPattern.length - 1);
 });
 
-
 $(document).keypress(function (e) {
 	key_press(e.key)
 })
+
 
 function key_press(key) {
 	switch (key) {
@@ -90,7 +89,7 @@ function checkAnswer(currntlevel) {
 		$('body').addClass('game-over');
 		$('.container').hide();
 		$('#level-title').text("Game over, Press any Y to Restart");
-		$('.score').show().text('You Scored '+level+' points');
+		$('.score').show().text('You Scored ' + level + ' points');
 
 		setTimeout(() => {
 			$('body').removeClass('game-over');
