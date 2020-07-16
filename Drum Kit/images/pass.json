@@ -1,0 +1,71 @@
+{
+  "folders": [],
+  "items": [
+    {
+      "id": "b9ee135b-acb3-407c-9f35-abed00a51220",
+      "organizationId": null,
+      "folderId": null,
+      "type": 1,
+      "name": "DNMA Avengers",
+      "notes": null,
+      "favorite": false,
+      "login": {
+        "username": "leatherbag",
+        "password": "%%3688J1IS^a7C",
+        "totp": null
+      },
+      "collectionIds": null
+    },
+    {
+      "id": "07afba6d-b2b9-49a3-ba37-abec0087c572",
+      "organizationId": null,
+      "folderId": null,
+      "type": 1,
+      "name": "Dread",
+      "notes": null,
+      "favorite": false,
+      "login": {
+        "username": "leatherbag",
+        "password": "$6uYO&Q*60l&ne",
+        "totp": null
+      },
+      "collectionIds": null
+    },
+    {
+      "id": "ffa6c2ba-c133-49ba-9ce2-abec00856e5d",
+      "organizationId": null,
+      "folderId": null,
+      "type": 1,
+      "name": "secMail",
+      "notes": null,
+      "favorite": false,
+      "login": {
+        "username": "leatherbag@secmail.pro",
+        "password": "@6aeBfx3Fo41$*",
+        "totp": null
+      },
+      "collectionIds": null
+    },
+    {
+      "id": "31c217c0-1918-4d65-8a14-abf5007e6965",
+      "organizationId": null,
+      "folderId": null,
+      "type": 1,
+      "name": "Tor Box",
+      "notes": null,
+      "favorite": false,
+      "login": {
+        "uris": [
+          {
+            "match": null,
+            "uri": "torbox3uiot6wchz.onion/mbx/users/login.php"
+          }
+        ],
+        "username": "leatherbag27@torbox3uiot6wchz.onion",
+        "password": "e$*2n6$ar^Xw0#",
+        "totp": null
+      },
+      "collectionIds": null
+    }
+  ]
+}
